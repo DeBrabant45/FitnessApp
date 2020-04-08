@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q5N8p8RSnyfRfFyCPanDbN/gGXEpz9Ys7ybGraSdEUWx+Np1yaTnrGW3HCtYlrcv/bMKmDZBdGxg8py6dJnDSA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aaron\\source\\repos\\FitnessApp\\FitnessApp\\FitnessApp.iOS\\FitnessApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aaron\\.nuget\\packages\\sqlite-net-pcl\\1.6.292\\sqlite-net-pcl.1.6.292.nupkg.sha512",
+    "C:\\Users\\Aaron\\.nuget\\packages\\sqlitepclraw.bundle_green\\1.1.13\\sqlitepclraw.bundle_green.1.1.13.nupkg.sha512",
+    "C:\\Users\\Aaron\\.nuget\\packages\\sqlitepclraw.core\\1.1.13\\sqlitepclraw.core.1.1.13.nupkg.sha512",
+    "C:\\Users\\Aaron\\.nuget\\packages\\sqlitepclraw.provider.sqlite3.ios_unified\\1.1.13\\sqlitepclraw.provider.sqlite3.ios_unified.1.1.13.nupkg.sha512",
+    "C:\\Users\\Aaron\\.nuget\\packages\\xamarin.essentials\\1.5.2\\xamarin.essentials.1.5.2.nupkg.sha512",
+    "C:\\Users\\Aaron\\.nuget\\packages\\xamarin.forms\\4.5.0.530\\xamarin.forms.4.5.0.530.nupkg.sha512"
+  ],
+  "logs": []
+}

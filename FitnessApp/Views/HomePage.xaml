@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             xmlns:views="clr-namespace:FitnessApp.Views"
+             xmlns:local="clr-namespace:FitnessApp.MarkupExtensions"
+             mc:Ignorable="d"
+             x:Class="FitnessApp.Views.HomePage"
+             android:TabbedPage.ToolbarPlacement="Bottom"
+             BarBackgroundColor="#002244"
+             BarTextColor="#a5acaf"
+             android:TabbedPage.BarItemColor="#a5acaf"
+             SelectedItem="#69be28"
+             android:TabbedPage.BarSelectedItemColor="#69be28"
+             BackgroundColor="DarkGray"
+             >
+    <!--Pages can be added as references or inline-->
+    <TabbedPage.Children>
+        <NavigationPage 
+            Title="Routine"
+            IconImageSource="{local:EmbeddedImage FitnessApp.Images.RoutineImage.png}">
+            <x:Arguments>
+                <views:RoutinePage />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage 
+            Title="Home"
+            IconImageSource="{local:EmbeddedImage FitnessApp.Images.HomeImage.png}">
+            <x:Arguments>
+                <views:WODPage />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage 
+            Title="Exercises"
+            IconImageSource="{local:EmbeddedImage FitnessApp.Images.ExercisesImage.png}">
+            <x:Arguments>
+                <views:ExercisesPage />
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
+</TabbedPage>

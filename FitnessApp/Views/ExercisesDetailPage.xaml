@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="FitnessApp.Views.ExercisesDetailPage">
+    <TableView Intent="Form" Margin="16,0">
+        <TableRoot>
+            <TableSection Title="Name">
+                <EntryCell Label="Exercise name" Text="{Binding Path=Exercise.Name}" />
+                <EntryCell Label="Exercise description" Text="{Binding Path=Exercise.Description}" />
+            </TableSection>
+            <TableSection Title="Type">
+                <EntryCell Label="Type" Text="{Binding Path=Exercise.Type}" />
+            </TableSection>
+            <TableSection>
+                <ViewCell>
+                    <Button Text="Save" Command="{Binding SaveCommand}" />
+                </ViewCell>
+            </TableSection>
+        </TableRoot>
+    </TableView>
+</ContentPage>
