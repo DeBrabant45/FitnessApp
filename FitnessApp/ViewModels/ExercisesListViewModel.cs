@@ -14,11 +14,13 @@ using Xamarin.Forms;
 
 namespace FitnessApp.ViewModels
 {
-    public class ChestExercisesViewModel : BaseViewModel
+    public class ExercisesListViewModel : BaseViewModel
     {
         private ExerciseViewModel _selectedExercise;
         private IExerciseStore _exerciseStore;
         private IPageService _pageService;
+
+        public string PageType;
 
         private bool _isDataLoaded;
 
@@ -35,11 +37,17 @@ namespace FitnessApp.ViewModels
         public ICommand SelectExerciseCommand { get; private set; }
         public ICommand DeleteExerciseCommand { get; private set; }
 
-        public ChestExercisesViewModel(IExerciseStore exerciseStore, IPageService pageService)
+        private string _title;
+        public string Title
+        {
+            get { return _title; }
+            set { SetValue(ref _title, value); }
+        }
+
+        public ExercisesListViewModel(IExerciseStore exerciseStore, IPageService pageService)
         {
             _exerciseStore = exerciseStore;
             _pageService = pageService;
-
             LoadDataCommand = new Command(async () => await LoadData());
             AddExerciseCommand = new Command(async () => await AddExercise());
             SelectExerciseCommand = new Command<ExerciseViewModel>(async e => await SelectExercise(e));
@@ -74,7 +82,7 @@ namespace FitnessApp.ViewModels
             var exercises = await _exerciseStore.GetExercisesAsync();
             foreach (var exercise in exercises)
             {
-                if (exercise.Type == "Chest")
+                if(exercise.Type == Title)
                     Exercises.Add(new ExerciseViewModel(exercise));
             }
 
@@ -104,6 +112,5 @@ namespace FitnessApp.ViewModels
                 await _exerciseStore.DeleteExercise(exercise);
             }
         }
-
     }
 }

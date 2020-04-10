@@ -13,13 +13,13 @@ using FitnessApp.Services;
 namespace FitnessApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ExercisesPage : ContentPage
+    public partial class ExercisesMainPage : ContentPage
     {
-        public ExercisesPage()
+        public ExercisesMainPage()
         {
             InitializeComponent();
             var pageService = new PageService();
-            BindingContext = new ExercisesViewModel(pageService);
+            BindingContext = new ExercisesMainViewModel(pageService);
         }
     }
 }

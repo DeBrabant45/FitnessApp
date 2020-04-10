@@ -31,6 +31,21 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\ExercisesListPage.xaml.cs">
+      <DependentUpon>ExercisesListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ExercisesMainPage.xaml.cs">
+      <DependentUpon>ExercisesMainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\HomeMainPage.xaml.cs">
+      <DependentUpon>HomeMainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\RoutineMainPage.xaml.cs">
+      <DependentUpon>RoutineMainPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
     <EmbeddedResource Update="Views\ExercisesDetailPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

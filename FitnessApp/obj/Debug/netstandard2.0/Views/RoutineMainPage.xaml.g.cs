@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("FitnessApp.Views.RoutinePage.xaml", "Views/RoutinePage.xaml", typeof(global::FitnessApp.Views.RoutinePage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("FitnessApp.Views.RoutineMainPage.xaml", "Views/RoutineMainPage.xaml", typeof(global::FitnessApp.Views.RoutineMainPage))]
 
 namespace FitnessApp.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\RoutinePage.xaml")]
-    public partial class RoutinePage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\RoutineMainPage.xaml")]
+    public partial class RoutineMainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(RoutinePage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(RoutineMainPage));
         }
     }
 }

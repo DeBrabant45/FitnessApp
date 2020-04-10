@@ -13,17 +13,17 @@ using Xamarin.Forms.Xaml;
 namespace FitnessApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ChestExercisesPage : ContentPage
+    public partial class ExercisesListPage : ContentPage //if I go back to using conetentpage change here
     {
-        public ChestExercisesPage()
+        public ExercisesListPage()
         {
             var exerciseStore = new SQLiteExerciseStore(DependencyService.Get<ISQLiteDb>());
             var pageService = new PageService();
-            ViewModel = new ChestExercisesViewModel(exerciseStore, pageService);
+            ViewModel = new ExercisesListViewModel(exerciseStore, pageService);
             InitializeComponent();
         }
 
-        protected override void OnAppearing()
+        protected override void OnAppearing() //If I go back to using contentPage use OnAppearing()
         {
             ViewModel.LoadDataCommand.Execute(null);
             base.OnAppearing();
@@ -32,9 +32,9 @@ namespace FitnessApp.Views
         {
             ViewModel.SelectExerciseCommand.Execute(e.SelectedItem);
         }
-        public ChestExercisesViewModel ViewModel
+        public ExercisesListViewModel ViewModel
         {
-            get { return BindingContext as ChestExercisesViewModel; }
+            get { return BindingContext as ExercisesListViewModel; }
             set { BindingContext = value; }
 
         }

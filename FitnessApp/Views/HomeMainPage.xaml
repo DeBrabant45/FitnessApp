@@ -8,7 +8,7 @@
              xmlns:views="clr-namespace:FitnessApp.Views"
              xmlns:local="clr-namespace:FitnessApp.MarkupExtensions"
              mc:Ignorable="d"
-             x:Class="FitnessApp.Views.HomePage"
+             x:Class="FitnessApp.Views.HomeMainPage"
              android:TabbedPage.ToolbarPlacement="Bottom"
              BarBackgroundColor="#002244"
              BarTextColor="#a5acaf"
@@ -23,7 +23,7 @@
             Title="Routine"
             IconImageSource="{local:EmbeddedImage FitnessApp.Images.RoutineImage.png}">
             <x:Arguments>
-                <views:RoutinePage />
+                <views:RoutineMainPage />
             </x:Arguments>
         </NavigationPage>
 
@@ -39,7 +39,7 @@
             Title="Exercises"
             IconImageSource="{local:EmbeddedImage FitnessApp.Images.ExercisesImage.png}">
             <x:Arguments>
-                <views:ExercisesPage />
+                <views:ExercisesMainPage />
             </x:Arguments>
         </NavigationPage>
     </TabbedPage.Children>

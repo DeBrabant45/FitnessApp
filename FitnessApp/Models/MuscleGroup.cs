@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FitnessApp.Models
 {
-    class MuscleGroup : List<Exercise>
+    public class MuscleGroup
     {
         public string Title { get; set; }
         public string ShortTitle { get; set; }

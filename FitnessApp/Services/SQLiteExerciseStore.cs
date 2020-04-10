@@ -39,7 +39,7 @@ namespace FitnessApp
 
         public async Task UpdateExercise(Exercise exercise)
         {
-            await _connection.InsertAsync(exercise);
+            await _connection.UpdateAsync(exercise);
         }
     }
 }

@@ -10,11 +10,15 @@ using Xamarin.Forms.Xaml;
 namespace FitnessApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class RoutinePage : ContentPage
+    public partial class HomeMainPage : TabbedPage
     {
-        public RoutinePage()
+        public HomeMainPage()
         {
             InitializeComponent();
+            var pages = Children.GetEnumerator();
+            pages.MoveNext(); // First page
+            pages.MoveNext(); // Second page
+            CurrentPage = pages.Current;
         }
     }
 }

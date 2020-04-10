@@ -11,11 +11,9 @@ C:\Users\Aaron\source\repos\FitnessApp\FitnessApp\FitnessApp\obj\Debug\netstanda
 C:\Users\Aaron\source\repos\FitnessApp\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\FitnessApp.dll
 C:\Users\Aaron\source\repos\FitnessApp\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\ref\FitnessApp.dll
 C:\Users\Aaron\source\repos\FitnessApp\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\FitnessApp.pdb
-C:\Users\Aaron\source\repos\FitnessApp\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\Views\BackExercisesPage.xaml.g.cs
-C:\Users\Aaron\source\repos\FitnessApp\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\Views\ChestExercisesPage.xaml.g.cs
-C:\Users\Aaron\source\repos\FitnessApp\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\Views\ExercisesPage.xaml.g.cs
-C:\Users\Aaron\source\repos\FitnessApp\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
-C:\Users\Aaron\source\repos\FitnessApp\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\Views\RoutinePage.xaml.g.cs
 C:\Users\Aaron\source\repos\FitnessApp\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\Views\WODPage.xaml.g.cs
-C:\Users\Aaron\source\repos\FitnessApp\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\FitnessApp.csprojAssemblyReference.cache
 C:\Users\Aaron\source\repos\FitnessApp\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\Views\ExercisesDetailPage.xaml.g.cs
+C:\Users\Aaron\source\repos\FitnessApp\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\Views\ExercisesListPage.xaml.g.cs
+C:\Users\Aaron\source\repos\FitnessApp\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\Views\ExercisesMainPage.xaml.g.cs
+C:\Users\Aaron\source\repos\FitnessApp\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\Views\HomeMainPage.xaml.g.cs
+C:\Users\Aaron\source\repos\FitnessApp\FitnessApp\FitnessApp\obj\Debug\netstandard2.0\Views\RoutineMainPage.xaml.g.cs

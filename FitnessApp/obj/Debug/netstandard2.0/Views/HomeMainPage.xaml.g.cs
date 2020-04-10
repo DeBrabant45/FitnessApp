@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("FitnessApp.Views.HomePage.xaml", "Views/HomePage.xaml", typeof(global::FitnessApp.Views.HomePage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("FitnessApp.Views.HomeMainPage.xaml", "Views/HomeMainPage.xaml", typeof(global::FitnessApp.Views.HomeMainPage))]
 
 namespace FitnessApp.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\HomePage.xaml")]
-    public partial class HomePage : global::Xamarin.Forms.TabbedPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\HomeMainPage.xaml")]
+    public partial class HomeMainPage : global::Xamarin.Forms.TabbedPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(HomePage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(HomeMainPage));
         }
     }
 }

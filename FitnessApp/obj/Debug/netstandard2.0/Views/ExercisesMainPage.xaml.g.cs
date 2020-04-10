@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("FitnessApp.Views.ExercisesPage.xaml", "Views/ExercisesPage.xaml", typeof(global::FitnessApp.Views.ExercisesPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("FitnessApp.Views.ExercisesMainPage.xaml", "Views/ExercisesMainPage.xaml", typeof(global::FitnessApp.Views.ExercisesMainPage))]
 
 namespace FitnessApp.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\ExercisesPage.xaml")]
-    public partial class ExercisesPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\ExercisesMainPage.xaml")]
+    public partial class ExercisesMainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ExercisesPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ExercisesMainPage));
         }
     }
 }

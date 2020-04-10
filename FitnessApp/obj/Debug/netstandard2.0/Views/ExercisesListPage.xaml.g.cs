@@ -8,21 +8,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("FitnessApp.Views.ChestExercisesPage.xaml", "Views/ChestExercisesPage.xaml", typeof(global::FitnessApp.Views.ChestExercisesPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("FitnessApp.Views.ExercisesListPage.xaml", "Views/ExercisesListPage.xaml", typeof(global::FitnessApp.Views.ExercisesListPage))]
 
 namespace FitnessApp.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\ChestExercisesPage.xaml")]
-    public partial class ChestExercisesPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\ExercisesListPage.xaml")]
+    public partial class ExercisesListPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.ContentPage chestExercisesPage;
+        private global::Xamarin.Forms.ContentPage exercisesListPage;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ChestExercisesPage));
-            chestExercisesPage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ContentPage>(this, "chestExercisesPage");
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ExercisesListPage));
+            exercisesListPage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ContentPage>(this, "exercisesListPage");
         }
     }
 }

@@ -11,7 +11,7 @@ namespace FitnessApp
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new HomePage());
+            MainPage = new NavigationPage(new HomeMainPage());
         }
 
         protected override void OnStart()

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Name="exercisesListPage"
+             x:Class="FitnessApp.Views.ExercisesListPage"
+             BackgroundColor="Transparent"
+             Title="{Binding Title, Mode=TwoWay}">
+   <!--<ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" Command="{Binding AddExerciseCommand}" />
+    </ContentPage.ToolbarItems> -->
+    <StackLayout>
+        <ListView ItemsSource="{Binding Exercises}" SelectedItem="{Binding SelectedExercise, Mode=TwoWay}" HasUnevenRows="True" SeparatorColor="Gray" ItemSelected="OnExerciseSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ImageCell Text="{Binding Name}" Detail="{Binding Description}" DetailColor="Black" TextColor="Red">
+                        <ImageCell.ContextActions>
+                            <MenuItem Text="Delete" IsDestructive="true" Command="{Binding Source={x:Reference exercisesListPage}, Path=ViewModel.DeleteExerciseCommand}" CommandParameter="{Binding .}" />
+                        </ImageCell.ContextActions>
+                    </ImageCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Add" 
+                Command="{Binding AddExerciseCommand}"
+                WidthRequest="40" 
+                HeightRequest="40" 
+                BorderRadius="20"/>
+    </StackLayout>
+</ContentPage>
