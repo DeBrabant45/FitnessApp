@@ -12,7 +12,28 @@
                 <EntryCell Label="Exercise description" Text="{Binding Path=Exercise.Description}" />
             </TableSection>
             <TableSection Title="Type">
-                <EntryCell Label="Type" Text="{Binding Path=Exercise.Type}" />
+                <ViewCell>
+                    <ViewCell.View>
+                        <StackLayout Orientation="Horizontal" Padding="13, 0">
+                            <Label Text="Muscle Group" VerticalOptions="Center" />
+                            <Picker
+                                    ItemsSource="{Binding ListOfMuscleGroups}"
+                                    Title="{Binding Path=Exercise.Type}"
+                                    ItemDisplayBinding="{Binding Value}"
+                                    HorizontalOptions="EndAndExpand"
+                                    SelectedItem="{Binding SelectedMuscleGroup}">
+                                <!-- <Picker.Items>
+                                    <x:String>Arms</x:String>
+                                    <x:String>Back</x:String>
+                                    <x:String>Chest</x:String>
+                                    <x:String>Legs</x:String>
+                                    <x:String>Neck</x:String>
+                                    <x:String>Shoulders</x:String>
+                                </Picker.Items> -->
+                            </Picker>
+                        </StackLayout>
+                    </ViewCell.View>
+                </ViewCell>
             </TableSection>
             <TableSection>
                 <ViewCell>

@@ -6,13 +6,7 @@ namespace FitnessApp.Models
 {
     public class MuscleGroup
     {
-        public string Title { get; set; }
-        public string ShortTitle { get; set; }
-
-        public MuscleGroup(string title, string shortTitle)
-        {
-            Title = title;
-            ShortTitle = shortTitle;
-        }
+        public int Key { get; set; }
+        public string Value { get; set; }
     }
 }

@@ -19,9 +19,6 @@ namespace FitnessApp.ViewModels
         private ExerciseViewModel _selectedExercise;
         private IExerciseStore _exerciseStore;
         private IPageService _pageService;
-
-        public string PageType;
-
         private bool _isDataLoaded;
 
         public ObservableCollection<ExerciseViewModel> Exercises { get; private set; } = new ObservableCollection<ExerciseViewModel>();
